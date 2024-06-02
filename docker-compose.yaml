@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  db:
+    container_name: pg_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pg1234
+      POSTGRES_DB: name_db
+      POSTGRES_HOST: 'localhost'
+    ports:
+      - "5432:5432"
+    volumes:
+      - C:\Users\PC\Documents\Matias\notebooks_specifications:/var/lib/postgresql/name_db
