@@ -1,1 +1,3 @@
 nb
+.env
+*__pycache__

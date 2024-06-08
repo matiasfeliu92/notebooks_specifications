@@ -12,4 +12,4 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - C:\Users\PC\Documents\Matias\notebooks_specifications:/var/lib/postgresql/name_db
+      - /c/Users/PC/Documents/Matias/notebooks_specifications:/var/lib/postgresql/data
